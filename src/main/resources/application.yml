@@ -1,0 +1,13 @@
+spring:
+ datasource:
+   url: jdbc:mysql://localhost:3306/demo?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=UTF-8
+   username: root
+   password: 123456
+   driver-class-name: com.mysql.jdbc.Driver
+ jpa:
+   database-platform: org.hibernate.dialect.MySQL8Dialect
+   hibernate:
+     ddl-auto: update
+
+jwt:
+ secret: YcfsVMgEw9PHB#3U
